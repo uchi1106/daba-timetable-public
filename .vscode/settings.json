@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true, // 保存時に自動フォーマット
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // JavaScript 用に Prettier をデフォルトフォーマッタに設定
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // TypeScript 用に Prettier をデフォルトフォーマッタに設定
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // JSX 用に Prettier をデフォルトフォーマッタに設定
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // TSX 用に Prettier をデフォルトフォーマッタに設定
+  },
+  "eslint.alwaysShowStatus": true // ESLint のステータスを常に表示
+}

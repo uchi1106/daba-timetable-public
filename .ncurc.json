@@ -1,0 +1,7 @@
+{
+    "packageManager": "pnpm",
+    "install": "always",
+    "reject": ["eslint", "eslint-config-next", "eslint-config-prettier", "@types/react", "react", "next", "react-dom", "tailwindcss", "@types/node", "@types/react-node","@types/react-dom", "@typescript-eslint/eslint-plugin"],
+    "cache": true,
+    "cacheExpiration": 30
+}
