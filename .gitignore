@@ -35,8 +35,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# public
-/src/hooks/course.ts
-/src/features/courseManagement/facultyRequirementDisplay/electiveRequirementDisplay/allocateCoursesToRequirements.ts
-/src/features/courseManagement/facultyRequirementDisplay/electiveRequirementDisplay/electiveRequirementGraph.ts
-/src/features/courseManagement/facultyRequirementDisplay/electiveRequirementDisplay/index.tsx
