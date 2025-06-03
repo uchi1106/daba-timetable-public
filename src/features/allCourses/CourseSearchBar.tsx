@@ -81,8 +81,10 @@ const CourseSearchBar: React.FC<CourseSearchBarProps> = ({
     if (filter.isNotRequired) amount++;
     if (filter.isObtained) amount++;
     if (filter.isNotObtained) amount++;
-    amount += filterDay.length;
-    amount += filterPeriod.length;
+    if (filterDay.length > 0) amount++;
+    if (filterPeriod.length > 0) amount++;
+    // 学期は filterTerm で管理されているが、FilterState には含まれないため、ここではカウントしない
+    // フィルターをクリアしたときにもfilterTermは変わらないため、amountは変わらない
     return amount;
   };
 

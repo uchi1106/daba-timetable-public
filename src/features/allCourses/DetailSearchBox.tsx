@@ -346,7 +346,7 @@ const DetailSearchBox: React.FC<DetailSearchBoxProps> = ({
           >
             曜日
           </InputLabel>
-          <Select
+          <Select<string[]>
             multiple
             value={filterDay.map((day) => `${day}曜日`)}
             label="曜日"

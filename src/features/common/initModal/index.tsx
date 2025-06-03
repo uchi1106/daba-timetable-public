@@ -33,8 +33,8 @@ export default function InitModal() {
     if (typeof window === 'object') {
       const params = new URLSearchParams(window.location.search);
       const code = params.get('code');
-
-      setInputCode(code ? [...code] : []);
+      // URLのクエリパラメータからcodeを取得して、4文字目までをinputCodeにセット
+      setInputCode(code ? [...code].slice(0, 4) : []);
     }
   }, []);
   // モードを管理
@@ -124,7 +124,7 @@ export default function InitModal() {
             >
               スマートフォンの方は先に
               <Link href="https://curio-shiki.com/blog/smartphone/shortcut-on-home#toc1">
-                スマホアプリ
+                スマホアプリ化
               </Link>
               することを強く推奨します
             </Typography>
