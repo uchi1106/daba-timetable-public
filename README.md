@@ -5,17 +5,30 @@
 このリポジトリは公開用です。\
 ここにある内容は、実際に運用・最新の内容やファイル構成とは異なる場合があります。
 
+
+## デプロイ先
+https://gunma-university-rishu-app.vercel.app
+
+※以下のURLからアクセスすると、サンプル設定が登録された状態でアプリを開始できる。\
+https://gunma-university-rishu-app.vercel.app/?code=nlg1
+
 ## 概要
 
-群馬大学の学生の履修管理をより快適にするアプリ「だばの時間割」。\
-教務システム、PDF資料、シラバス、既存の時間割アプリが担っている機能を1つにまとめ、群大生に最適化されたユーザー体験を提供する。
+群馬大学における履修管理の煩雑さを解消する、学生向けのWebアプリケーション。  
+教務情報やシラバス、PDF資料など分散している履修情報を集約し、履修状況や要件達成度を可視化・管理可能にする。
 
-<img width="959" alt="スクリーンショット１" src="https://private-user-images.githubusercontent.com/147119623/447852283-02b4ca84-0f2c-43ea-a537-3868f1df0d37.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg5NjA3MjMsIm5iZiI6MTc0ODk2MDQyMywicGF0aCI6Ii8xNDcxMTk2MjMvNDQ3ODUyMjgzLTAyYjRjYTg0LTBmMmMtNDNlYS1hNTM3LTM4NjhmMWRmMGQzNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwM1QxNDIwMjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YzNjNTIzZWQ1OWE3NmExYTc3ODgyYzRlNmNlZGJkYTYwOWNlYWNhNDhmMTdhNTNmY2ExNjE2NDJmM2E4YzA0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.KFidvJ6RZ3IJ80lw1FqdLUpgr_-CYBG4kIcV-cGefyI" />
+### 時間割画面
+![Image](https://github.com/user-attachments/assets/02b4ca84-0f2c-43ea-a537-3868f1df0d37)
 
-<img width="960" alt="スクリーンショット２" src="https://private-user-images.githubusercontent.com/147119623/447852284-6b8f578a-6ddd-4a5f-9d83-7f8dcca3c19f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg5NjA3MjMsIm5iZiI6MTc0ODk2MDQyMywicGF0aCI6Ii8xNDcxMTk2MjMvNDQ3ODUyMjg0LTZiOGY1NzhhLTZkZGQtNGE1Zi05ZDgzLTdmOGRjY2EzYzE5Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwM1QxNDIwMjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NmE4YjRiZGMxM2I0Nzk1ZDU0NWNhYzM3YTc4NDg1MDA0NDNlOWFhZjczYmNiMzA3MzVjNTI4ZWVhZTBhOTlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.kaacKu22v1g9856BeCrhABdUqgAT9cRQPPXDELIRffE" />
+### 取得状況表示画面
+![Image](https://github.com/user-attachments/assets/6b8f578a-6ddd-4a5f-9d83-7f8dcca3c19f)
 
+## 開発背景
+群馬大学では、履修情報がPDF資料や教務システム（シラバス）、企業が提供する時間割アプリなど複数の場所に分散しており、  
+学生が自身の履修状況を把握・管理が煩雑だった。
 
-
+この課題を解決するため、公開されている大学の情報を活用し、履修情報の一元管理と可視化を実現するアプリの開発を開始。  
+プロジェクトは2024年9月に着手し、企画・設計・実装の約9割以上を個人で担当。UIデザインやセキュリティの一部は協力者と分担している。
 
 ## 技術スタック
 
@@ -53,7 +66,59 @@
 - qrcode.react
 - reqct-window
 
-## コミットには以下のプリフィックスをつける
+
+## このアプリの特徴および他サービスとの違い
+
+本アプリは、群馬大学における履修管理の実情に即して設計された、統合型の履修支援ツールである。以下の3点が、従来の時間割アプリとの明確な差別化ポイントとなっている。
+
+### 1. 履修管理機能
+
+一般的な時間割アプリは、時間割により授業の時間を表示するためのツールであり、  履修要件や単位の取得状況に基づいた履修管理機能は備えていない。
+
+本アプリでは、卒業要件を木構造として定義し、ユーザーの合格済み授業を自動で判定・反映することで、以下のような履修情報を一目で把握できる：
+
+- どの科目から何単位を取得する必要があるか  
+- そのうち、どの授業が必修に該当するか  
+- 現時点で取得済みの単位数・科目  
+- 今後履修が必要な授業と単位数  
+
+これにより、自身の履修状況を正確に把握しながら、計画的な履修が可能になる。
+
+### 2. 公式情報に基づいた授業データ
+
+授業情報はすべて大学の教務システムおよびシラバスをもとにスクレイピングしており、信頼性が高い。  
+「すごい時間割」など既存の時間割アプリでは、ユーザー間で授業情報を共有する方式が主であり、公式情報に基づく構造化はされていない。
+
+### 3. 履修支援を一気通貫で完結
+
+履修要件の管理、授業の詳細確認、時間割作成、日々の授業確認など、  
+履修に関わる一連の作業をこのアプリひとつで完結できるよう設計している。
+
+このように、本アプリは単なる時間割表示ツールではなく、  
+**履修に関するすべてを一元化した統合型支援ツール**として機能する点が最大の特徴である。
+
+
+## 主な機能
+- 授業の一覧表示・検索機能
+  - 合格済み・必修・時間割に登録済の授業を解釈し、表示
+  - reactの仮想化により画面に表示されるコンポーネントのみレンダリング（パフォーマンス改善）
+- 授業詳細でシラバスから取得したデータを表示（さらなる詳細はシラバスへのリンクで補完）
+- 学期ごとに授業を登録・確認できる時間割機能
+- 授業に教室を登録でき、他の人が登録した教室の情報を自分も参照できる
+- どの科目から何単位とる必要があるかという卒業要件の情報を、木構造としてに解釈してわかりやすくユーザーに表示
+- ユーザーが合格した授業を↑の木構造に反映させて、履修状況を表示
+  これにより、ユーザーは以下を確認できる
+  - どの科目から何単位授業をとる必要があるか
+  - そのうちどの授業が必修の授業なのか
+  - 自分がどの科目から何単位取得しているのか
+  - 残りの履修する必要がある授業
+- 特定の学期の時間割に登録している授業を全て取得した場合の履修状況の表示機能（仮取得済）
+- 4文字の英数字で構成される設定コードにより、異なるデバイス間での設定情報の共有
+- PWA化対応（スマホアプリのように利用できる）
+- ユーザーの操作に合わせたsnackbarの表示
+
+## コミットメッセージ
+コミットメッセージには以下のプリフィックスをつける
 
 - feat: 新しい機能
 - fix: バグの修正
@@ -69,7 +134,7 @@
 動詞の場合は原形を使う。  
 例　feat: add courseDetailModal component
 
-## src内ディレクトリ構成（仮）
+## src内ディレクトリ構成
 
 ```
 .
@@ -85,6 +150,7 @@
 
 ※ここでいう「共通」とは大枠の機能が異なる複数のコンポーネントから呼び出されることを指す。
 
+
 ## 導入
 
 ### ルートディレクトリに`.env.local`ファイルを作成し、環境変数を設定する
@@ -98,7 +164,6 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
 NEXT_PUBLIC_GA_MEASUREMENT_ID=your-GA-measurment-id
 ```
 
-###
 
 ### 依存関係をインストールする
 
